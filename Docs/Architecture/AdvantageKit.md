@@ -51,4 +51,3 @@ We have not yet done significant on-robot r&d with AdvantageKit and need to asse
 ### Notes
 
 - See also the [Simulation](Simulation.md) article for more on the IO layer structure
-- _When we have log files, put a link to one here as an example_
