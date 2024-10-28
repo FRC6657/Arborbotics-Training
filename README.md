@@ -1,8 +1,10 @@
+THIS REPO IS FORKED FROM 8033's TRAINING RESOURCES
+
 # Robot Software Training Materials
 
 ## Philosophy
 
-This repository is set up mainly as an organized set of resources for robot software training for FRC team 8033, Highlander Robotics.
+This repository is set up mainly as an organized set of resources for robot software training for FRC Team 6657, Arborbotics.
 The goal of these resources is to build enough familiarity with our code structure and the sorts of work we encounter to allow new students to quickly start on projects for the team.
 This means that a new student should be able to look through a robot project, find commonly modified pieces of code, and have a basic understanding of why it is organized the way it is.
 This material is _not_ made to comprehensively teach everything you need to know about FRC programming, or programming in general.
@@ -47,8 +49,6 @@ Controls in particular contain techniques used in most mechanisms on the robot.
 - [**PID** - PID and Feedforward Control Intro](Docs/Specifics/ControlsIntro.md)
 
 ### Libraries and Tooling
-
-    This section is a work in progress, due to changes in how we do auto paths and vision in the 2023 offseason.
 
 - [**AUT** - PathPlanner and Auto](Docs/Specifics/PathPlanner.md)
 
