@@ -39,7 +39,3 @@ Because each Subsystem can only be used by one Command at once, we are safe from
   Then you can use decorators as described [here](https://docs.wpilib.org/en/stable/docs/software/commandbased/command-compositions.html) to compose the basic Commands into more complex sequences.
   Generally we make these compositions in `RobotContainer` but you can also make single-Subsystem compositions within that Subsystem.
   See our code from previous years for examples of this pattern, or talk to a software lead.
-- In our 2023 code we started using a pattern called the `SuperstructureSubsystem`.
-  This pattern involves creating a Subsystem that has references to most other Subsystems to make Command factory methods with multiple Subsystems.
-  This pattern doesn't really make sense on inspection though, since the `SuperstructureSubsystem` doesn't actually lock any hardware from multiple-access and you can just make the composed Commands in `RobotContainer` instead.
-  In the future, just make multiple-Subsystem Command factories in `RobotContainer`.
